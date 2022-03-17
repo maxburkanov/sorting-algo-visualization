@@ -61,7 +61,6 @@ function timeSloweringFn(milisec) {
 }
 
 size.addEventListener('change', (e) => {
-    console.log('size', e.target.value);
     main.innerHTML = ``;
     buildBars(e.target.value);
 });
@@ -79,7 +78,7 @@ start.addEventListener('click', async () => {
     size.disabled = true;
     speed.disabled = true;
 
-    await bubble(speed.value);
+    await bubble(500 - speed.value);
 
     start.disabled = false;
     size.disabled = false;
