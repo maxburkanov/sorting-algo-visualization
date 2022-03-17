@@ -1,0 +1,14 @@
+main {
+  display: flex;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar {
+  width: 1px;
+  border: 0.5px #0d1117 solid;
+  transition: 0.1s all ease;
+  background: lightblue;
+}

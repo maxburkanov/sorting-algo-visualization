@@ -1,0 +1,7 @@
+{
+    "name": "sorting-algo-visualization",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Max Burkanov <mburkanov@highresbio.com>",
+    "license": "MIT"
+}
